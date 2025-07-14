@@ -19,7 +19,7 @@ class BotController extends Controller
         if (isset($update['callback_query'])) {
             return $this->handleCallback($update);
         }
-        $telegram = new TelegramController(config('telegram_bot_config.TOKEN'));
+        $telegram = new TelegramController(env('TELEGRAM_BOT_TOKEN'));
 
         $message = $update['message'] ?? null;
         $chat_id = $message['chat']['id'] ?? null;
