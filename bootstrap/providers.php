@@ -1,5 +1,8 @@
 <?php
 
+use BaleBot\BaleBotProvider;
+use TelegramBot\TelegramBotProvider;
+
 return [
     App\Providers\AppServiceProvider::class,
     App\Providers\BroadcastServiceProvider::class,
@@ -21,4 +24,6 @@ return [
     TodoList\TodoListProvider::class,
     UserProfile\UserProfileProvider::class,
     ShortenerUrl\Shortener\ShortenerServiceProvider::class,
+    TelegramBotProvider::class,
+    BaleBotProvider::class
 ];
