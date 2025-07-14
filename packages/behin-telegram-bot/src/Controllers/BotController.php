@@ -94,7 +94,7 @@ class BotController extends Controller
 
             $telegram->sendMessage([
                 'chat_id' => $chat_id,
-                'text' => "✅ اطلاعاتت ثبت شد. حالا سوالت رو بپرس ✨"
+                'text' => "اطلاعاتتون ثبت شد. سوالی داری در خدمتم"
             ]);
             return;
         }
