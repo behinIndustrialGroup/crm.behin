@@ -79,6 +79,7 @@ class ComposerStaticInitf86875715c5b32c6021b837db7efc70f
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
             'Tests\\' => 6,
             'Termwind\\' => 9,
+            'TelegramBot\\' => 12,
         ),
         'S' => 
         array (
@@ -286,6 +287,10 @@ class ComposerStaticInitf86875715c5b32c6021b837db7efc70f
         'Termwind\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/termwind/src',
+        ),
+        'TelegramBot\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/packages/behin-telegram-bot/src',
         ),
         'Symfony\\Polyfill\\Uuid\\' => 
         array (
@@ -8373,6 +8378,11 @@ class ComposerStaticInitf86875715c5b32c6021b837db7efc70f
         'Symfony\\Polyfill\\Php80\\PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/PhpToken.php',
         'Symfony\\Polyfill\\Php83\\Php83' => __DIR__ . '/..' . '/symfony/polyfill-php83/Php83.php',
         'Symfony\\Polyfill\\Uuid\\Uuid' => __DIR__ . '/..' . '/symfony/polyfill-uuid/Uuid.php',
+        'TelegramBot\\Controllers\\BotController' => __DIR__ . '/../..' . '/packages/behin-telegram-bot/src/Controllers/BotController.php',
+        'TelegramBot\\Controllers\\TelegramController' => __DIR__ . '/../..' . '/packages/behin-telegram-bot/src/Controllers/TelegramController.php',
+        'TelegramBot\\Models\\TelegramMessage' => __DIR__ . '/../..' . '/packages/behin-telegram-bot/src/Models/TelegramMessage.php',
+        'TelegramBot\\Models\\TelegramUser' => __DIR__ . '/../..' . '/packages/behin-telegram-bot/src/Models/TelegramUser.php',
+        'TelegramBot\\TelegramBotProvider' => __DIR__ . '/../..' . '/packages/behin-telegram-bot/src/TelegramBotProvider.php',
         'Termwind\\Actions\\StyleToMethod' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Actions/StyleToMethod.php',
         'Termwind\\Components\\Anchor' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Components/Anchor.php',
         'Termwind\\Components\\BreakLine' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Components/BreakLine.php',
