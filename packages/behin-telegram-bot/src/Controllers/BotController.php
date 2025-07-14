@@ -3,9 +3,9 @@
 namespace TelegramBot\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\LangflowController;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
-use Mkhodroo\AltfuelTicket\Controllers\LangflowController;
 use TelegramBot\Models\TelegramUser;
 
 class BotController extends Controller
