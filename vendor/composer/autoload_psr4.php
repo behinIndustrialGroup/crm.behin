@@ -130,6 +130,7 @@ return array(
     'BehinInit\\' => array($baseDir . '/packages/behin-init/src'),
     'BehinFileControl\\' => array($baseDir . '/packages/behin-file-control/src'),
     'Barryvdh\\TranslationManager\\' => array($vendorDir . '/barryvdh/laravel-translation-manager/src'),
+    'BaleBot\\' => array($baseDir . '/packages/behin-bale-bot/src'),
     'Assert\\' => array($vendorDir . '/beberlei/assert/lib/Assert'),
     'App\\' => array($baseDir . '/app', $vendorDir . '/laravel/pint/app'),
 );
